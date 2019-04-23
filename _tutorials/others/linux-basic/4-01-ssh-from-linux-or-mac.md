@@ -1,7 +1,9 @@
 ---
 youku_id: XMzEyMTE0MzY2NA
 youtube_id: Jo9OlO5cvn0
-bilibili_id: 15976434&page=10
+b_av: 15976434
+b_cid: 27635077
+b_page: 10
 chapter: 4
 title: 怎么样从 MacOS 或 Linux 通过 SSH 远程 Linux
 publish-date: 2017-10-16
@@ -152,10 +154,10 @@ morvan@morvan-Latitude-E5550:~$
 不过你还可以更进一步, 现在你每 SSH 登录一次 Linux, 都需要输入密码, 如果你登录次数很频繁, 而却你的密码又设置得很长,
 这就非常麻烦. 还好, 我们可以通过提前设置一个"保密协议", 来让你的 Linux 识别出哪些电脑能不用密码登录. 这就是 `public/private rsa key`.
 
-我们将在 Mac 或者 Linux (控制电脑) 上生成一个 `public/private keypair` (共锁和私锁), 然后将共锁(public key) 复制到要被远程的 Linux 上.
-这样当你有私锁的控制电脑要远程操控这台有共锁的 Linux, 他会帮你识别配对的. 就不用每次都要输入被远程的电脑密码了.
+我们将在 Mac 或者 Linux (控制电脑) 上生成一个 `public/private keypair` (公钥和私钥), 然后将公钥(public key) 复制到要被远程的 Linux 上.
+这样当你有私钥的控制电脑要远程操控这台有公钥的 Linux, 他会帮你识别配对的. 就不用每次都要输入被远程的电脑密码了.
 
-所以首先我们还是用我的 Mac demo, 在 mac 的 Terminal 上输入指令 `ssh-keygen` 创建共锁和私锁, 它会提示你要保存这些锁的地方.
+所以首先我们还是用我的 Mac demo, 在 mac 的 Terminal 上输入指令 `ssh-keygen` 创建公钥和私钥, 它会提示你要保存这些锁的地方.
 我们就用它默认的地方比较好. 所以回车确定.
 
 ```shell
@@ -199,7 +201,7 @@ The key's randomart image is:
 ```
 
 
-接着, 我们就要将这个生成好的 "公锁" 给复制去你的 被控制的 Linux. 指令结构还是和上面一样.
+接着, 我们就要将这个生成好的 "公钥" 给复制去你的 被控制的 Linux. 指令结构还是和上面一样.
 
 ```shell
 $ ssh-copy-id [被控制的用户名]@[它的ip]

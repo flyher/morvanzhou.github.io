@@ -1,7 +1,9 @@
 ---
 youku_id: XMTcyMTQzNTUyMA
 youtube_id: UqL589c8quk
-bilibili_id: 16378354&page=17
+b_av: 16378354
+b_cid: 27599041
+b_page: 17
 description: 怎么样在图片中在添加一张小的图片注解呢? 这个教程就告诉你. matplotlib 的图中图教程.
 author: Jeff
 chapter: 4
@@ -15,7 +17,7 @@ post-headings:
 
 学习资料:
   * [相关代码](https://github.com/MorvanZhou/tutorials/blob/master/matplotlibTUT/plt17_plot_in_plot.py){:target="_blank"}
-
+  
 这次我们来讲matplotlib里一个很有意思的功能，叫做图中图(plot in plot)，最后的效果如下：
 
 {% include tut-image.html image-name="4_3_1.png" %}

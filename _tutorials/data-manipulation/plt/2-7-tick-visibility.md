@@ -1,7 +1,9 @@
 ---
 youku_id: XMTcxNjI5NzEyMA
 youtube_id: zj-tXbuFY_4
-bilibili_id: 16378354&page=9
+b_av: 16378354
+b_cid: 27599033
+b_page: 9
 description: 有时候数据多也是挺烦人的. 比如数据可能会挡道一些重要的东西. 那我们就可以设置 bbox 来解决被挡住的问题.
 chapter: 2
 title: tick 能见度
@@ -14,7 +16,8 @@ post-headings:
 
 学习资料:
   * [相关代码](https://github.com/MorvanZhou/tutorials/blob/master/matplotlibTUT/plt9_tick_visibility.py){:target="_blank"}
-
+ 
+  
 {% include assign-heading.html %}
 
 当图片中的内容较多，相互遮盖时，我们可以通过设置相关内容的透明度来使图片更易于观察，也即是通过本节中的`bbox`参数设置来调节图像信息.

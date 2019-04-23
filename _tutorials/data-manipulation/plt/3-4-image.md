@@ -1,7 +1,9 @@
 ---
 youku_id: XMTcyMTM2NTA2NA
 youtube_id: rqR9429ajg4
-bilibili_id: 16378354&page=13
+b_av: 16378354
+b_cid: 27599037
+b_page: 13
 description: 使用 matplotlib 展示图片 image 的方法. 用最简单的例子来实现 image 的画图.
 author: Hao
 chapter: 3
@@ -15,7 +17,7 @@ post-headings:
 
 学习资料:
   * [相关代码](https://github.com/MorvanZhou/tutorials/blob/master/matplotlibTUT/plt13_image.py){:target="_blank"}
-
+  
 {% include assign-heading.html %}
 
 这一节我们讲解怎样在**matplotlib**中打印出图像。这里我们打印出的是纯粹的数字，而非自然图像。

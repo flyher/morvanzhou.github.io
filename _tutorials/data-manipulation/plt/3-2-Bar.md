@@ -1,7 +1,9 @@
 ---
 youku_id: XMTcxNjM5NDI1Ng
 youtube_id: dmGRCJIEWrE
-bilibili_id: 16378354&page=11
+b_av: 16378354
+b_cid: 27599035
+b_page: 11
 description: matplotlib 中的 bar 条形图, 柱状图是如何使用的呢. 这就是一个简单好玩的例子.
 author: Hao
 chapter: 3
@@ -14,7 +16,6 @@ post-headings:
 
 学习资料:
   * [相关代码](https://github.com/MorvanZhou/tutorials/blob/master/matplotlibTUT/plt11_bar.py){:target="_blank"}
-  
 
 本节我们介绍一下用`matplotib`来制作一个柱状图，今天的结果如下图：
 

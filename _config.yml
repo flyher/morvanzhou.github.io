@@ -164,7 +164,6 @@ defaults:
       category: computer-vision
       keywords: tensorflow, 机器学习, 神经网络, 计算机视觉，Computer-vision
       thumbnail: /static/img/course_cover/computer-vision.jpg
-      published: true
 
   - scope:
       path: "_tutorials/data-manipulation/np-pd"

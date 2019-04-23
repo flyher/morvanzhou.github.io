@@ -1,7 +1,9 @@
 ---
 youku_id: XMTcxNjMzMDEyOA
 youtube_id: EPDaHAbLPs4
-bilibili_id: 16378354&page=10
+b_av: 16378354
+b_cid: 27599034
+b_page: 10
 description: 当然, matplotlib 是可以做散点图 scatter 的. 而且还可以做散点图很多特效, 我们来做一个练习.
 author: Hao
 chapter: 3
@@ -13,7 +15,7 @@ post-headings:
 
 学习资料:
   * [相关代码](https://github.com/MorvanZhou/tutorials/blob/master/matplotlibTUT/plt10_scatter.py){:target="_blank"}
-
+  
 
 本节我们将讲述各种不同的plot的方式。之前我们讲到了如何plot线，今天我们讲述如何plot散点图。
 今天用到的例子最终呈现的结果如下图：

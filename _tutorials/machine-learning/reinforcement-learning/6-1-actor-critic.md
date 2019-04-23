@@ -1,7 +1,9 @@
 ---
 youku_id: XMjY4NTE1MDY3Mg
 youtube_id: tvMu5oPYpsw
-bilibili_id: 16921335&page=26
+b_av: 16921335
+b_cid: 27657261
+b_page: 26
 chapter: 6
 title: Actor Critic (Tensorflow)
 thumbnail: "/static/thumbnail-small/rl/6.1_actor_critic.jpg"
@@ -29,7 +31,7 @@ post-headings:
   * [什么是 Actor Critic 短视频]({% link _tutorials/machine-learning/ML-intro/4-08-AC.md %})
   * [什么是 Policy Gradient 短视频]({% link _tutorials/machine-learning/ML-intro/4-07-PG.md %})
   * [强化学习实战]({% link _tutorials/machine-learning/ML-practice/RL-build-arm-from-scratch1.md %})
-  * 学习书籍 [Reinforcement learning: An introduction](http://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf){:target="_blank"}
+  * 学习书籍 [Reinforcement learning: An introduction](/static/files/Reinforcement_learning_An_introduction.pdf){:target="_blank"}
 
 {% include assign-heading.html %}
 

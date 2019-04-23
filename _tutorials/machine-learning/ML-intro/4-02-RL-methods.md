@@ -1,7 +1,7 @@
 ---
 youku_id: XMTkyMDY5MTk2OA
 youtube_id: AINrxEjflaM
-bilibili_id: 15987194
+b_av: 15987194
 title: 强化学习方法汇总 (Reinforcement Learning)
 description: "了解强化学习中常用到的几种方法,以及他们的区别, 对我们根据特定问题选择方法时很有帮助.
 强化学习是一个大家族, 发展历史也不短, 具有很多种不同方法. 比如说比较知名的控制方法 Q learning, Policy gradients, 还有基于对环境的理解的 model-based RL 等等. 接下来我们通过分类的方式来了解他们的区别."
@@ -19,7 +19,7 @@ post-headings:
   * [强化学习教程]({% link _table-contents/machine-learning/reinforcement-learning.html %})
   * [强化学习模拟程序](https://www.youtube.com/watch?v=G5BDgzxfLvA&list=PLXO45tsB95cLYyEsEylpPvTY-8ErPt2O_){:target="_blank"}
   * [强化学习实战]({% link _tutorials/machine-learning/ML-practice/RL-build-arm-from-scratch1.md %})
-  * 学习书籍 [Reinforcement learning: An introduction](http://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf){:target="_blank"}
+  * 学习书籍 [Reinforcement learning: An introduction](/static/files/Reinforcement_learning_An_introduction.pdf){:target="_blank"}
 
 
 

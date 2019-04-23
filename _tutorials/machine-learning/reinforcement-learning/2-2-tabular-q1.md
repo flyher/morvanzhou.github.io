@@ -1,7 +1,9 @@
 ---
 youku_id: XMTk2OTg5NDE0MA
 youtube_id: lfMICa9sEQE
-bilibili_id: 16921335&page=7
+b_av: 16921335
+b_cid: 27657242
+b_page: 7
 chapter: 2
 title: Q-learning 算法更新
 thumbnail: "/static/thumbnail-small/rl/2.2_qlearning1.jpg"
@@ -21,7 +23,7 @@ post-headings:
   * [全部代码](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/tree/master/contents/2_Q_Learning_maze){:target="_blank"}
   * [什么是 Q Learning 短视频]({% link _tutorials/machine-learning/ML-intro/4-03-q-learning.md %})
   * 模拟视频效果[Youtube](https://www.youtube.com/playlist?list=PLXO45tsB95cLYyEsEylpPvTY-8ErPt2O_){:target="_blank"}, [Youku](http://list.youku.com/albumlist/show/id_27485743){:target="_blank"}
-  * 学习书籍 [Reinforcement learning: An introduction](http://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf){:target="_blank"}
+  * 学习书籍 [Reinforcement learning: An introduction](/static/files/Reinforcement_learning_An_introduction.pdf){:target="_blank"}
 
 
 {% include assign-heading.html %}

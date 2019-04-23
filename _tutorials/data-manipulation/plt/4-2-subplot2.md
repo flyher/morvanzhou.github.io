@@ -1,7 +1,9 @@
 ---
 youku_id: XMTcyMTQwMzY0MA
 youtube_id: 68OrRqH2B_s
-bilibili_id: 16378354&page=16
+b_av: 16378354
+b_cid: 27599040
+b_page: 16
 description: matplotlib 的 subplot 还可以是分隔显示的, 用这种 grid 方法,个人觉得比之前那种方法要方便.
 author: Wayne
 chapter: 4
@@ -15,7 +17,7 @@ post-headings:
 
 学习资料:
   * [相关代码](https://github.com/MorvanZhou/tutorials/blob/master/matplotlibTUT/plt16_grid_subplot.py){:target="_blank"}
-
+  
 matplotlib 的 subplot 还可以是分格的,这里介绍三种方法.
 
 
